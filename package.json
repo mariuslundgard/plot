@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "plot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "monorepo run build",
+    "postinstall": "monorepo install",
+    "test": "monorepo test",
+    "watch": "monorepo run watch"
+  },
+  "author": "Marius Lundgård <studio@mariuslundgard.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "monorepo": "^1.2.0"
+  }
+}

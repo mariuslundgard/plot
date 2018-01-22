@@ -1,0 +1,40 @@
+.column-chart {
+  margin: 20px 0;
+}
+
+.column-chart__header {
+  /* text-align: center; */
+  margin: 0 0 16px;
+}
+
+.column-chart__header h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.column-chart__header p {
+  /* font-size: 18px; */
+  margin: 0;
+}
+
+.column-chart__content {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* min-height: 100px; */
+}
+
+.column-chart__content svg {
+  /* background: #ccc; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.column-chart__content svg path {
+  fill: none;
+}
+
+.column-chart__plot-columns rect {
+}

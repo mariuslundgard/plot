@@ -1,0 +1,18 @@
+.legend {
+  margin: 0 0 10px;
+  color: #999;
+}
+
+.legend__item {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.legend__item > span {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 10px;
+  height: 10px;
+  margin-top: 4px;
+}

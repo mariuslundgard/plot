@@ -1,0 +1,12 @@
+.x-axis text {
+  font-size: 12px;
+  fill: #999;
+}
+
+.x-axis path {
+  stroke: #eee;
+}
+
+.x-axis text {
+  text-anchor: middle;
+}

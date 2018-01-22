@@ -1,0 +1,21 @@
+.chart {
+  border: 1px solid #ccc;
+}
+
+.chart__ratio {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.chart__canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  background: #eee;
+}
+
+.chart__plot {
+}

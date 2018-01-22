@@ -1,0 +1,43 @@
+.bar-chart {
+  margin: 20px 0;
+}
+
+.bar-chart__header {
+  /* text-align: center; */
+  margin: 0 0 16px;
+}
+
+.bar-chart__header h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.bar-chart__header p {
+  /* font-size: 18px; */
+  margin: 0;
+}
+
+.bar-chart__content {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* min-height: 100px; */
+}
+
+.bar-chart__content svg {
+  /* background: #ccc; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bar-chart__content svg path {
+  fill: none;
+}
+
+.bar-chart__plot-bars path {
+  stroke-barcap: round;
+  stroke-barjoin: round;
+  stroke-width: 3px;
+}

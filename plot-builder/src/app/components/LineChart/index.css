@@ -1,0 +1,39 @@
+.line-chart {
+  margin: 20px 0;
+}
+
+.line-chart__header {
+  /* text-align: center; */
+  margin: 0 0 10px;
+}
+
+.line-chart__header h3 {
+  margin: 0;
+}
+
+.line-chart__header p {
+  margin: 0;
+}
+
+.line-chart__content {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.line-chart__content svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.line-chart__content svg path {
+  fill: none;
+}
+
+.line-chart__plot-lines path {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}

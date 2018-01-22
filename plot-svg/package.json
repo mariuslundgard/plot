@@ -1,0 +1,28 @@
+{
+  "name": "plot-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/plot-svg.commonjs.js",
+  "module": "dist/plot-svg.module.js",
+  "scripts": {
+    "build": "npm-run-all rollup-*",
+    "rollup-commonjs": "rollup --config .rollup/commonjs.config.js",
+    "rollup-module": "rollup --config .rollup/module.config.js",
+    "test": "jest --verbose"
+  },
+  "author": "Marius Lundgård <studio@mariuslundgard.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.65.0",
+    "jest": "^22.1.4",
+    "npm-run-all": "^4.1.2",
+    "rollup": "^0.55.3",
+    "rollup-plugin-babel": "^3.0.3"
+  },
+  "dependencies": {
+    "plot-fns": "file:../plot-fns",
+    "ramda": "^0.25.0"
+  }
+}

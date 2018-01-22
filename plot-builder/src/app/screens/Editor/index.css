@@ -1,0 +1,13 @@
+.editor {
+  display: flex;
+}
+
+.editor__form {
+  flex: 1;
+  padding: 15px;
+}
+
+.editor__plot {
+  flex: 1;
+  padding: 15px;
+}
